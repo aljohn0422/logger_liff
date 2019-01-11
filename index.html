@@ -8,6 +8,8 @@
     <title>大同服務案件登記小工具</title>
     <style src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.21/vue.min.js"></style>
     <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -21,41 +23,42 @@
         <input type="date" name="" id="today">
         <div class="catogory">專業人員服務</div>
         <div class="btnrow">
-            <button type="button">社會參與</button>
-            <button type="button">物資協助</button>
+            <button type="button" class="btn">社會參與</button>
+            <button type="button" class="btn">物資協助</button>
         </div>
         <div class="btnrow">
-            <button type="button">經濟協助</button>
-            <button type="button">預防走失手鍊</button>
+            <button type="button" class="btn">經濟協助</button>
+            <button type="button" class="btn">預防走失手鍊</button>
         </div>
         <div class="btnrow">
-            <button type="button">緊急救援系統</button>
-            <button type="button">家庭關係輔導</button>
+            <button type="button" class="btn">緊急救援系統</button>
+            <button type="button" class="btn">家庭關係輔導</button>
         </div>
         <div class="btnrow">
-            <button type="button">法律服務</button>
-            <button type="button">心理支持關懷</button>
+            <button type="button" class="btn">法律服務</button>
+            <button type="button" class="btn">心理支持關懷</button>
         </div>
         <div class="btnrow">
-            <button type="button" class="active">醫療協助</button>
-            <button type="button">長期照顧服務</button>
+            <button type="button" class="btn" class="active">醫療協助</button>
+            <button type="button" class="btn">長期照顧服務</button>
         </div>
         <div class="btnrow">
-            <button type="button">機構住宅安置</button>
-            <button type="button">其他</button>
+            <button type="button" class="btn">機構住宅安置</button>
+            <button type="button" class="btn">其他</button>
         </div>
         <div class="catogory">問安與訪視</div>
         <div class="btnrow">
-            <button type="button">電話問安（男）</button>
-            <button type="button">電話問安（女）</button>
+            <button type="button" class="btn">電話問安（男）</button>
+            <button type="button" class="btn">電話問安（女）</button>
         </div>
         <div class="btnrow">
-            <button type="button">關懷訪視（男）</button>
-            <button type="button">關懷訪視（女）</button>
+            <button type="button" class="btn">關懷訪視（男）</button>
+            <button type="button" class="btn">關懷訪視（女）</button>
         </div>
+        <div class="catogory">個案姓名</div>
+        <input type="text">
         <div class="catogory">備註</div>
-        <input type="textarea">
-
+        <input type="text">
         <button class="submit">送出</button>
     </div>
 
