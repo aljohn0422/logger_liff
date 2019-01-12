@@ -62,12 +62,13 @@ button.active {
 }
 .catogory{
     padding: 0 8px 8px;
-    text-align: right;           
+    /* text-align: right;            */
 }
 
 input[type=date] {
     padding: 0 8px;
     outline: none;
+    border: none;
     font-size: 22px;
     color: rgb(225, 60, 60);
     font-family: ‘Noto Sans TC’, sans-serif;
@@ -89,4 +90,5 @@ button.submit {
     color: white;
     border: none;
     font-weight: 600;
+    position: relative;
 }

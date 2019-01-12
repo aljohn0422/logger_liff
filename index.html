@@ -6,20 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>大同服務案件登記小工具</title>
-    <style src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.21/vue.min.js"></style>
     <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="loader.css">
 </head>
 
 <body>
     <div class="container">
         <div class="sec">
             <div class="subs">USER</div>
-            <div class="username">李美俐</div>
+            <div class="username" id="username"></div>
         </div>
         <!-- <div class="sep"></div> -->
-        <div class="catogory">登錄日期</div>
+        <div class="catogory">服務日期</div>
         <input type="date" name="" id="today">
         <div class="catogory">專業人員服務</div>
         <div class="btnrow">
@@ -56,12 +54,30 @@
             <button type="button" class="btn">關懷訪視（女）</button>
         </div>
         <div class="catogory">個案姓名</div>
-        <input type="text">
+        <input type="text" id="client">
         <div class="catogory">備註</div>
-        <input type="text">
-        <button class="submit">送出</button>
+        <input type="text" id="remarks">
+        <button class="submit" id="submit">送出
+            <div class="sk-circle">
+                <div class="sk-circle1 sk-child"></div>
+                <div class="sk-circle2 sk-child"></div>
+                <div class="sk-circle3 sk-child"></div>
+                <div class="sk-circle4 sk-child"></div>
+                <div class="sk-circle5 sk-child"></div>
+                <div class="sk-circle6 sk-child"></div>
+                <div class="sk-circle7 sk-child"></div>
+                <div class="sk-circle8 sk-child"></div>
+                <div class="sk-circle9 sk-child"></div>
+                <div class="sk-circle10 sk-child"></div>
+                <div class="sk-circle11 sk-child"></div>
+                <div class="sk-circle12 sk-child"></div>
+            </div>
+        </button>
     </div>
 
+    <script src="https://d.line-scdn.net/liff/1.0/sdk.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
     <script src="main.js"></script>
 </body>
 
