@@ -25,6 +25,7 @@ $(window).on('load', function () {
         }
         serviceStr = serviceStr.join(',');
         let data = {
+            action: 'register',
             date: $('#today').val().replace(/-/g, ''),
             user: $('.username').text(),
             client: $("#client").val(),
