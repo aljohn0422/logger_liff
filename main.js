@@ -33,7 +33,7 @@ $(window).on('load', function () {
             time: new Date().toLocaleString(),
             services: serviceStr
         }
-        $.get("https://script.google.com/macros/s/AKfycbwcBKnsx2s4ggbSGMJ9djk5GFwQPmL7sNBmr1ATxkP39LJJ5pI/exec", data).done(function () {
+        $.get("https://script.google.com/macros/s/AKfycbyTMMzgkBQivmHC-_N7C1rebK0Iki4nTsrgo_3uJhn4yUm_Mqk/exec", data).done(function () {
             $('.active').each(function () {
                 $(this).removeClass('active');
             })
